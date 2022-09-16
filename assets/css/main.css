@@ -322,7 +322,7 @@ video {
 
 .rotatingText-adjective {
   font-family: "Barlow", sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   color: rgb(255, 255, 255);
   font-style: normal;
   font-weight: 700;
@@ -347,7 +347,7 @@ video {
 
 .rotatingText-adjective:nth-of-type(2) {
   animation-name: rotate;
-  animation-duration: 4s;
+  animation-duration: 2s;
   animation-delay: 4s;
   animation-fill-mode: forwards;
 }
@@ -355,7 +355,7 @@ video {
 .rotatingText-adjective:nth-of-type(3) {
   animation-name: rotate;
   animation-duration: 4s;
-  animation-delay: 8s;
+  animation-delay: 6s;
   animation-fill-mode: forwards;
 }
 .rotatingText-adjective:nth-of-type(4) {
