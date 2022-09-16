@@ -222,13 +222,21 @@ video {
   font-size: 2.5rem;
   text-shadow: 0 0 10px #000;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
+.logoText {
+	font-family: "Lato", sans-serif;
+	font-style: italic;
+	font-size: 3.5rem;
+	text-shadow: 0 0 2px #fff;
+	text-align: center;
+	color: rgb(0, 0, 0);
+  }
 
 .rotatingText-adjective {
   font-family: "Open Sans", sans-serif;
   font-size: 2rem;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-style: normal;
   font-weight: 700;
   left: 0;
@@ -241,56 +249,57 @@ video {
   text-transform: uppercase;
   top: 10vh;
   padding: 2vh;
-  text-shadow: 0 0 10px #000;
+  text-shadow: 0 0 5px #fff;
 }
 
 .rotatingText-adjective:nth-of-type(1) {
   animation-name: rotate;
-  animation-duration: 4s;
-  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .rotatingText-adjective:nth-of-type(2) {
   animation-name: rotate;
   animation-duration: 4s;
-  animation-delay: 20s;
+  animation-delay: 4s;
   animation-fill-mode: forwards;
 }
 
 .rotatingText-adjective:nth-of-type(3) {
   animation-name: rotate;
   animation-duration: 4s;
-  animation-delay: 24s;
+  animation-delay: 8s;
   animation-fill-mode: forwards;
 }
 .rotatingText-adjective:nth-of-type(4) {
   animation-name: rotate;
   animation-duration: 4s;
-  animation-delay: 28s;
+  animation-delay: 12s;
   animation-fill-mode: forwards;
 }
 .rotatingText-adjective:nth-of-type(5) {
   animation-name: rotate;
   animation-duration: 4s;
-  animation-delay: 32s;
+  animation-delay: 16s;
   animation-fill-mode: forwards;
 }
 .rotatingText-adjective:nth-of-type(6) {
   animation-name: rotate;
   animation-duration: 4s;
-  animation-delay: 36s;
+  animation-delay: 20s;
   animation-fill-mode: forwards;
 }
 .rotatingText-adjective:nth-of-type(7) {
   animation-name: rotate;
   animation-duration: 4s;
-  animation-delay: 40s;
+  animation-delay: 24s;
   animation-fill-mode: forwards;
 }
 .rotatingText-adjective:nth-of-type(8) {
   animation-name: rotate-last;
   animation-duration: 4s;
-  animation-delay: 44s;
+  animation-delay: 28s;
   animation-fill-mode: forwards;
 }
 
