@@ -1,0 +1,69 @@
+Webpage open
+White on Black
+
+Heading - Roboto Slab
+Company Name - 
+Small text - 
+Slogan - Dosis
+transpert nav - white to black
+company name - xeromobility - Nanum Gothic
+large to small 
+slogan 
+
+on touch - start video 
+
+<Pages>
+Who we are:
+
+XEROMOBILITY
+IS A VISION OF WHAT NEW FINTECH MIGHT LOOK LIKE
+It’s an attempt to build something that’s never been done before in the fintech Era and it’s coming at a time when the world needs fresh thinking and innovative solutions. In other words, XEROMOBILITY will be an incredible piece of technology for people and businesses who dream big and want to be part of building a new model of a healthy, sustainable, and fossil fuel-free world.
+
+
+Team
+<b>Talk to an expert</b>
+<b>Contact Us</b>
+</Pages>
+
+Left to right text - 
+transition from left to right
+
+<HERO>
+Enabling people to build a clean and healthy planet.
+</HERO>
+
+
+Per city - 
+
+-- Sky
+ In 2021, human activities pumped <span class="highLightText"> 36 billion tons </span> of planet-warming gas
+          into the atmosphere.
+
+-- Sidney
+-- Fossil fuel free world
+
+-- New York
+-- Zero Debt Buisness 
+
+-- London
+-- No New Emissions
+
+-- Mumbai
+-- Building our Communities
+
+-- Toyko
+-- Web3 for the last mile
+
+-- - Finance electric vehicles, in minutes, RISK FREE 
+
+-- Redirect to who we are page
+- Fintech 
+--
+-- 
+
+
+https://codepen.io/sanketbodke/pen/MWmXqVw
+- One message
+-- <BUTTON> Team Page
+<Talk to an Expert>
+<Contact Us>
