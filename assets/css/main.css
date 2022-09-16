@@ -109,16 +109,16 @@ video {
 	font-size: 2.5em;
 }
 .centerHeader2 {
-	font-family: "acherus_militant_1_-_bold";
+	font-family: "tahoma";
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
 	width: 100%;
 	max-width: 100%;
 	padding: 0 20px;
-	top: 40vh;
+	top: 32vh;
 	left: 0;
-	font-size: 4em;
+	font-size: 1.5em;
 }
 article,
 aside,
@@ -334,7 +334,7 @@ video {
   right: 0;
   text-align: center;
   text-transform: uppercase;
-  top: 44vh;
+  top: 50vh;
   padding: 2vh;
 }
 
@@ -348,14 +348,14 @@ video {
 .rotatingText-adjective:nth-of-type(2) {
   animation-name: rotate;
   animation-duration: 2s;
-  animation-delay: 4s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
 }
 
 .rotatingText-adjective:nth-of-type(3) {
   animation-name: rotate;
-  animation-duration: 4s;
-  animation-delay: 6s;
+  animation-duration: 2s;
+  animation-delay: 5s;
   animation-fill-mode: forwards;
 }
 .rotatingText-adjective:nth-of-type(4) {
