@@ -137,8 +137,7 @@ body {
   line-height: 1;
 }
 
-
-body.fadeout{
+body.fadeout {
   -webkit-animation: moveUp 1s ease both;
   animation: moveUp 1s ease both;
 }
@@ -317,7 +316,7 @@ video {
 }
 
 .highLightText {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   color: #ff8e32;
   display: inline-block;
@@ -327,7 +326,7 @@ video {
 .rotatingText {
   font-family: "Barlow", sans-serif;
   font-style: italic;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: center;
   color: rgb(255, 255, 255);
 }
@@ -341,7 +340,7 @@ video {
 
 .rotatingText-adjective {
   font-family: "Barlow", sans-serif;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: rgb(255, 255, 255);
   font-style: normal;
   font-weight: 700;
@@ -359,52 +358,52 @@ video {
 
 .rotatingText-adjective:nth-of-type(1) {
   animation-name: rotate;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
 }
 
 .rotatingText-adjective:nth-of-type(2) {
   animation-name: rotate;
-  animation-duration: 2s;
-  animation-delay: 3s;
+  animation-duration: 4s;
+  animation-delay: 5s;
   animation-fill-mode: forwards;
 }
 
 .rotatingText-adjective:nth-of-type(3) {
   animation-name: rotate;
-  animation-duration: 2s;
-  animation-delay: 5s;
+  animation-duration: 4s;
+  animation-delay: 9s;
   animation-fill-mode: forwards;
 }
 .rotatingText-adjective:nth-of-type(4) {
   animation-name: rotate;
-  animation-duration: 2s;
-  animation-delay: 7s;
+  animation-duration: 4s;
+  animation-delay: 13s;
   animation-fill-mode: forwards;
 }
 .rotatingText-adjective:nth-of-type(5) {
   animation-name: rotate;
-  animation-duration: 2s;
-  animation-delay: 9s;
+  animation-duration: 4s;
+  animation-delay: 17s;
   animation-fill-mode: forwards;
 }
 .rotatingText-adjective:nth-of-type(6) {
   animation-name: rotate;
-  animation-duration: 2s;
-  animation-delay: 11s;
+  animation-duration: 5s;
+  animation-delay: 22s;
   animation-fill-mode: forwards;
 }
 .rotatingText-adjective:nth-of-type(7) {
   animation-name: rotate;
-  animation-duration: 2s;
-  animation-delay: 13s;
+  animation-duration: 4s;
+  animation-delay: 27s;
   animation-fill-mode: forwards;
 }
 .rotatingText-adjective:nth-of-type(8) {
   animation-name: rotate-last;
-  animation-duration: 2s;
-  animation-delay: 15s;
+  animation-duration: 5s;
+  animation-delay: 32s;
   animation-fill-mode: forwards;
 }
 
