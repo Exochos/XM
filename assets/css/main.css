@@ -1,11 +1,10 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,300italic,400italic");
 
-
 @font-face {
-	font-family: "acherus_militant_1_-_bold";
-	font-weight: bold;
-	src: url("acherus_militant_1_-_bold.otf") format("opentype");
+  font-family: "acherus_militant_1_-_bold";
+  font-weight: bold;
+  src: url("acherus_militant_1_-_bold.otf") format("opentype");
 }
 
 html,
@@ -97,28 +96,28 @@ video {
   vertical-align: baseline;
 }
 .centerHeader {
-	font-family: "acherus_militant_1_-_bold";
-	position: absolute;
-	text-align: center;
-	margin: 0 auto;
-	width: 100%;
-	max-width: 100%;
-	padding: 0 20px;
-	top: 38vh;
-	left: 0;
-	font-size: 3em;
+  font-family: "acherus_militant_1_-_bold";
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 20px;
+  top: 38vh;
+  left: 0;
+  font-size: 3em;
 }
 .centerHeader2 {
-	font-family: "tahoma";
-	position: absolute;
-	text-align: center;
-	margin: 0 auto;
-	width: 100%;
-	max-width: 100%;
-	padding: 0 20px;
-	top: 48vh;
-	left: 0;
-	font-size: 1.5em;
+  font-family: "tahoma";
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 20px;
+  top: 48vh;
+  left: 0;
+  font-size: 1.5em;
 }
 article,
 aside,
@@ -138,6 +137,27 @@ body {
   line-height: 1;
 }
 
+
+body.fadeout{
+  -webkit-animation: moveUp 1s ease both;
+  animation: moveUp 1s ease both;
+}
+
+@-webkit-keyframes moveUp {
+  from {
+  }
+  to {
+    -webkit-transform: translateY(-100%);
+  }
+}
+@keyframes moveUp {
+  from {
+  }
+  to {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
 ol,
 ul {
   list-style: none;
@@ -316,7 +336,7 @@ video {
   font-style: italic;
   font-size: 3.5rem;
   text-align: center;
-  color: rgb(255,255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .rotatingText-adjective {
@@ -4548,7 +4568,7 @@ table.alt tbody tr td {
 #header button,
 #header .button {
   background-color: #fff;
-  border:  1px rgba(251, 173, 6, 0.75);
+  border: 1px rgba(251, 173, 6, 0.75);
   color: #000 !important;
 }
 
