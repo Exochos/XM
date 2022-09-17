@@ -104,9 +104,9 @@ video {
 	width: 100%;
 	max-width: 100%;
 	padding: 0 20px;
-	top: 20vh;
+	top: 38vh;
 	left: 0;
-	font-size: 2.5em;
+	font-size: 3em;
 }
 .centerHeader2 {
 	font-family: "tahoma";
@@ -116,7 +116,7 @@ video {
 	width: 100%;
 	max-width: 100%;
 	padding: 0 20px;
-	top: 32vh;
+	top: 48vh;
 	left: 0;
 	font-size: 1.5em;
 }
@@ -190,7 +190,6 @@ textarea {
   width: 100%;
   text-align: center;
   color: #f4f4f4;
-  opacity: 0.5;
 }
 
 .icons {
@@ -334,7 +333,7 @@ video {
   right: 0;
   text-align: center;
   text-transform: uppercase;
-  top: 50vh;
+  bottom: 0;
   padding: 2vh;
 }
 
