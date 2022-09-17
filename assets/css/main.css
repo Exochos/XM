@@ -401,9 +401,23 @@ video {
   animation-fill-mode: forwards;
 }
 .rotatingText-adjective:nth-of-type(8) {
-  animation-name: rotate-last;
-  animation-duration: 5s;
+  animation-name: rotate;
+  animation-duration: 4s;
   animation-delay: 32s;
+  animation-fill-mode: forwards;
+}
+
+.rotatingText-adjective:nth-of-type(9) {
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-delay: 36s;
+  animation-fill-mode: forwards;
+}
+
+.rotatingText-adjective:nth-of-type(10) {
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-delay: 41s;
   animation-fill-mode: forwards;
 }
 
