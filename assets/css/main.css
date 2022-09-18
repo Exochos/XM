@@ -1,6 +1,12 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,300italic,400italic");
-
+@import url(AdeptlyRegular-OVz6d.ttf);
+@font-face {
+  font-family: 'AdeptlyRegular';
+  src: url('AdeptlyRegular-OVz6d.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
   font-family: "acherus_militant_1_-_bold";
   font-weight: bold;
@@ -107,6 +113,49 @@ video {
   left: 0;
   font-size: 3em;
 }
+.centerAbout {
+  font-family: "acherus_militant_1_-_bold";
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 20px;
+  font-size: 2em;
+  font-variant: small-caps;
+}
+.centerAbout2 {
+  font-family: 'Barlow', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 1em;
+  font-size: 1.4em;
+}
+.founder {
+  font-family: 'Barlow', sans-serif;
+  text-align: right;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 1.4em;
+  font-size: 1.6em;
+}
+.cursive {
+  font-family: 'AdeptlyRegular', sans-serif;
+  text-align: right;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 1.4em;
+  font-size: 1.6em;
+}
 .centerHeader2 {
   font-family: "tahoma";
   position: absolute;
@@ -118,6 +167,9 @@ video {
   top: 48vh;
   left: 0;
   font-size: 1.5em;
+}
+.oj {
+  color: rgb(254, 120, 50);
 }
 article,
 aside,
@@ -318,7 +370,7 @@ video {
 .highLightText {
   font-size: 2.2rem;
   font-weight: bold;
-  color: #ff8e32;
+  color: rgb(254, 120, 50);
   display: inline-block;
   white-space: nowrap;
 }
@@ -4633,7 +4685,7 @@ table.alt tbody tr td {
 }
 
 #header a:hover {
-  color: #ff8e32;
+  color: rgb(254, 120, 50);
 }
 
 #header > .logo {
