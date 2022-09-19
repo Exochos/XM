@@ -337,12 +337,14 @@ video {
   left: 0;
 }
 .card {
+  background-color: #fff;
+  color: #000;
   width: 280px;
   height: 460px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  text-align: left;
   padding: 1em;
   border-radius: 2px;
   overflow: hidden;
@@ -367,7 +369,7 @@ video {
   font-family: "Barlow", sans-serif;
   font-weight: 800;
   font-size: 1.2rem;
-  color:#fff;
+  color:#000;
   margin: 2px;
   padding: 2px;
 }
@@ -375,7 +377,7 @@ video {
 .card .details p {
   text-transform: uppercase;
   font-weight: 200;
-  color: rgb(254, 120, 50);
+  color: rgb(000, 000, 000);
   font-size: 1em;
   margin: 1em auto;
 }
