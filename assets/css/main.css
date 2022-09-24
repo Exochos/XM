@@ -193,11 +193,22 @@ video {
 
 .about {
   font-family: "Barlow", sans-serif;
+  position: relative;
   text-align: center;
   margin: 0 auto;
   width: 100%;
   max-width: 100%;
   font-size: 1.4em;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  left: 0;
+  height: 90vh;
+}
+@media screen and (max-width: 600px) {
+  .about {
+    flex-direction: column;
+  }
 }
 
 article,
