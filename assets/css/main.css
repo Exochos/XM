@@ -176,7 +176,7 @@ video {
   color: #fff;
   font-family: "Barlow", sans-serif;
   position: fixed;
-  left: -80px;
+  left: -70px;
   top: 50%;
   padding: 0px;
   margin: 0px;
@@ -360,23 +360,23 @@ video {
   left: 0;
 }
 .card {
-  background-color:#ede9e7;
+  background-color: #ede9e7;
   color: #000;
-  width: 280px;
-  height: 480px;
+  width: 320px;
+  height: 520px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   padding: 1em auto;
-  margin: .5em auto;
+  margin: 0.5em auto;
   border-radius: 6px;
   overflow: hidden;
 }
 
 .card img {
-  width: 280px;
-  height: 250px;
+  width: 320px;
+  height: 280px;
   border-radius: 1px;
   margin: 0px;
   background-color: #ede9e7;
@@ -402,7 +402,7 @@ video {
   margin: 1em auto;
 }
 .card .info {
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 .textContainer {
@@ -462,7 +462,7 @@ video {
 .rotatingText-adjective:nth-of-type(1) {
   animation-name: rotate;
   animation-duration: 5s;
-  animation-delay: .25s;
+  animation-delay: 0.25s;
   animation-fill-mode: forwards;
 }
 
@@ -772,9 +772,8 @@ pre code {
 }
 
 hr {
-  border: 0;
-  border-bottom: solid 1px;
-  margin: 2em 0;
+  border: 1;
+  border-color: rgb(254, 120, 50);
 }
 
 hr.major {
@@ -4102,7 +4101,7 @@ table.alt tbody tr td {
 
 .wrapper.style1 {
   background-color: #000;
-  color: rgba(255, 255, 255, 1.0);
+  color: rgba(255, 255, 255, 1);
 }
 
 .wrapper.style1 input,
