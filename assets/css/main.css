@@ -158,7 +158,7 @@ video {
   font-size: 1.6em;
 }
 .centerHeader2 {
-  font-family: "tahoma";
+  font-family: "Barlow", sans-serif;
   position: absolute;
   text-align: center;
   margin: 0 auto;
@@ -167,7 +167,8 @@ video {
   padding: 0 20px;
   top: 48vh;
   left: 0;
-  font-size: 1.5em;
+  font-size: 1.8em;
+  font-weight: 600;
 }
 .oj {
   color: rgb(254, 120, 50);
@@ -193,6 +194,7 @@ video {
 
 .about {
   font-family: "Barlow", sans-serif;
+  font-weight: 800;
   position: relative;
   text-align: center;
   margin: 0 auto;
@@ -420,9 +422,8 @@ video {
 }
 
 .highLightText {
-  font-size: 2.2rem;
-  font-weight: bold;
-  color: rgb(254, 120, 50);
+  font-size: 2rem;
+  font-weight: 800;
   display: inline-block;
   white-space: nowrap;
 }
@@ -435,7 +436,7 @@ video {
   color: rgb(255, 255, 255);
 }
 .logoText {
-  font-family: "acherus_militant_light", sans-serif;
+  font-family: "", sans-serif;
   font-style: italic;
   font-size: 3.5rem;
   text-align: center;
@@ -455,11 +456,11 @@ video {
   position: absolute;
   right: 0;
   text-align: center;
-  font-variant: small-caps;
   bottom: 0;
   padding: 2vh;
 }
 
+/* Animation Bird */
 .rotatingText-adjective:nth-of-type(1) {
   animation-name: rotate;
   animation-duration: 5s;
@@ -486,44 +487,55 @@ video {
   animation-delay: 16s;
   animation-fill-mode: forwards;
 }
+/* End Animation Bird 21 seconds */
+
+/* Sydney */
 .rotatingText-adjective:nth-of-type(5) {
   animation-name: rotate;
   animation-duration: 5s;
-  animation-delay: 21.5s;
+  animation-delay: 21.25s;
   animation-fill-mode: forwards;
 }
+
+/* New York */
 .rotatingText-adjective:nth-of-type(6) {
   animation-name: rotate;
   animation-duration: 5s;
-  animation-delay: 27s;
+  animation-delay: 26.5s;
   animation-fill-mode: forwards;
 }
+
+/* London */
 .rotatingText-adjective:nth-of-type(7) {
   animation-name: rotate;
   animation-duration: 5s;
   animation-delay: 31.5s;
   animation-fill-mode: forwards;
 }
+
+/* Mumbai */
 .rotatingText-adjective:nth-of-type(8) {
   animation-name: rotate;
-  animation-duration: 4s;
-  animation-delay: 32s;
+  animation-duration: 5s;
+  animation-delay: 36.75s;
   animation-fill-mode: forwards;
 }
 
+/* Toyko */
 .rotatingText-adjective:nth-of-type(9) {
   animation-name: rotate;
-  animation-duration: 4s;
-  animation-delay: 36s;
+  animation-duration: 9.7s;
+  animation-delay: 42s;
   animation-fill-mode: forwards;
 }
 
+/* 
 .rotatingText-adjective:nth-of-type(10) {
   animation-name: rotate;
   animation-duration: 5s;
-  animation-delay: 41s;
+  animation-delay: 45s;
   animation-fill-mode: forwards;
-}
+}*/
 
 @keyframes rotate {
   0% {
