@@ -207,9 +207,11 @@ video {
   left: 0;
   height: 90vh;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .about {
+    font-size: 2em;
     flex-direction: column;
+    padding: 2em auto;
   }
 }
 
@@ -361,6 +363,36 @@ video {
   top: 0;
   left: 0;
 }
+.whoWe {
+  color:black;
+  text-align:center;
+  background-color: #EFEFEF;
+  height:100vh;
+  width:50vw;
+  display:flex;
+  padding: 2em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 40vh;
+  left: 0px;
+  font-weight: bold;
+  font-weight: 800;
+}
+@media screen and (max-width: 700px) {
+  .whoWe {
+    width: 100vw;
+    height: 100vh;
+    padding: 2em;
+  }
+}
+  
+}
+.whoWe2 {
+  font-family:acherus_militant_1_-_bold;
+  font-variant: small-caps;
+  font-size: 2.5em;
+}
 .card {
   background-color: #ede9e7;
   color: #000;
@@ -370,8 +402,8 @@ video {
   flex-direction: column;
   align-items: center;
   text-align: left;
-  padding: 1em auto;
-  margin: 0.5em auto;
+  padding: 1em;
+  margin: 1em;
   border-radius: 6px;
   overflow: hidden;
 }
@@ -647,7 +679,7 @@ a:hover {
 
 strong,
 b {
-  font-weight: 400;
+  font-weight: bold;
 }
 
 em,
@@ -3955,6 +3987,9 @@ ul.contact-icons li:before {
 section.special,
 article.special {
   text-align: center;
+}
+#header {
+  font-size: 1.6em;
 }
 
 header p {
