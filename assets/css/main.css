@@ -102,6 +102,13 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+.card {
+  font-family: Barlow, sans-serif;
+  background-color: #EFEFEF;
+}
+.card-subtitle {
+  font-weight: bold;
+}
 .centerHeader {
   font-family: "acherus_militant_1_-_bold";
   position: absolute;
@@ -181,7 +188,7 @@ video {
   left:-120px;
   padding: 0px;
   margin: 0px;
-  font-size: 6em;
+  font-size: 12vh;
   transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
