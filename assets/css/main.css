@@ -225,7 +225,7 @@ video {
   margin: 0 auto;
   width: 100%;
   max-width: 100%;
-  font-size: 1.4em;
+  font-size: 1.6em;
   display: flex;
   flex-direction: row;
   vertical-align: middle;
@@ -415,12 +415,11 @@ video {
     padding: 2em;
   }
 }
-  
-}
+
 .whoWe2 {
   font-family:acherus_militant_1_-_bold;
   font-variant: small-caps;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .textContainer {
